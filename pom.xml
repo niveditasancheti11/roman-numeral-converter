@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.adobe</groupId>
 	<artifactId>roman-numeral-converter</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>roman-numeral-converter</name>
 	<description>SpringBoot App to convert Integer to Roman</description>
 	<url/>
