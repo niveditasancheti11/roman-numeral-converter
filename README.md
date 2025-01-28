@@ -85,18 +85,18 @@ docker run -p 8080:8080 roman-numeral-converter
 ```plaintext
 src/
 ├── main/java/com/adobe/roman_numeral_converter
-│   ├── config/                  # Configuration classes (e.g., CORS, exception handling)
+│   ├── config/                                     # Configuration classes (e.g., CORS, exception handling)
 │   │   ├── CorsConfig.java
 │   │   ├── GlobalExceptionHandler.java          
-│   ├── RomanNumeralController.java # REST controllers             
-│   ├── RomanNumeralEntity.java # JPA entities
-│   ├── RomanNumeralRepository.java # JPA repositories           
-│   ├── RomanNumeralService.java # Business logic
+│   ├── RomanNumeralController.java                 # REST controllers             
+│   ├── RomanNumeralEntity.java                     # JPA entities
+│   ├── RomanNumeralRepository.java                 # JPA repositories           
+│   ├── RomanNumeralService.java                    # Business logic
 │   └── RomanNumeralConverterApplication.java
-├── test/                        # Unit and integration tests
+├── test/                                           # Unit and integration tests
 └── resources/
-    ├── application.properties   # Spring configuration
-    └── data.sql                 # Initial test data
+    ├── application.properties                      # Spring configuration
+    └── data.sql                                    # Initial test data
 ```
 
 ---
