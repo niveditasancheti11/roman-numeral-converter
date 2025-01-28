@@ -87,15 +87,11 @@ src/
 ├── main/java/com/adobe/roman_numeral_converter
 │   ├── config/                  # Configuration classes (e.g., CORS, exception handling)
 │   │   ├── CorsConfig.java
-│   │   ├── GlobalExceptionHandler.java
-│   ├── controller/              # REST controllers
-│   │   └── RomanNumeralController.java
-│   ├── entity/                  # JPA entities
-│   │   └── RomanNumeralEntity.java
-│   ├── repository/              # JPA repositories
-│   │   └── RomanNumeralRepository.java
-│   ├── service/                 # Business logic
-│   │   └── RomanNumeralService.java
+│   │   ├── GlobalExceptionHandler.java          
+│   ├── RomanNumeralController.java # REST controllers             
+│   ├── RomanNumeralEntity.java # JPA entities
+│   ├── RomanNumeralRepository.java # JPA repositories           
+│   ├── RomanNumeralService.java # Business logic
 │   └── RomanNumeralConverterApplication.java
 ├── test/                        # Unit and integration tests
 └── resources/
